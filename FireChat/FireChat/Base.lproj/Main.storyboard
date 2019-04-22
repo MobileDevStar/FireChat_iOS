@@ -32,7 +32,7 @@
         <!--Login View Controller-->
         <scene sceneID="MmW-J0-Cz1">
             <objects>
-                <viewController storyboardIdentifier="Welcome" id="uJN-PQ-uCd" customClass="LoginViewController" customModule="FireChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="uJN-PQ-uCd" customClass="LoginViewController" customModule="FireChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hSl-lb-cB8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,7 +58,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="Joh-SB-1ck" userLabel="Spinner">
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" id="Joh-SB-1ck" userLabel="Spinner">
                                         <rect key="frame" x="196.87719298243519" y="438.91228070172974" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </activityIndicatorView>
@@ -453,7 +453,7 @@
         <!--Nav View Controller-->
         <scene sceneID="IjL-X0-tdw">
             <objects>
-                <navigationController id="nZ3-UE-uhS" customClass="NavViewController" customModule="FireChat" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Navigation" id="nZ3-UE-uhS" customClass="NavViewController" customModule="FireChat" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CnR-Wf-gpf">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -538,6 +538,7 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
+                <tapGestureRecognizer id="hEV-dW-9J6"/>
             </objects>
             <point key="canvasLocation" x="1301" y="200"/>
         </scene>
